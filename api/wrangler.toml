@@ -1,0 +1,8 @@
+name = "api"
+main = "src/index.ts"
+compatibility_date = "2023-11-21"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "jobboard"
+database_id = "bb2bdc2a-0da2-4b59-9afe-ec35d30035a7"
