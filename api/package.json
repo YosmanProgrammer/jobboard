@@ -6,7 +6,7 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
-    "generate:schema": "npx wrangler d1 execute jobboard --file=./schema.sql"
+    "generate:schema": "wrangler d1 execute jobboard --file=./schema.sql"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
